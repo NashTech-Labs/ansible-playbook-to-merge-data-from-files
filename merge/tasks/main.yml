@@ -1,0 +1,5 @@
+- name: Merge data
+  merge_vars:
+    suffix_to_merge: _suffix__to_merge
+    merged_var_name: merged_file
+    expected_type: 'list'
